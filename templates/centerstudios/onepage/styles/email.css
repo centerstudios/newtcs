@@ -1,0 +1,60 @@
+.Clock {
+position: absolute;
+left: 0px;
+top: 0px;
+width: 800px;
+height: 600px;
+z-index: 9;
+}
+.Border {
+border-radius: 50%;
+background-color: rgb(255, 255, 255);
+position: absolute;
+left: 123px;
+top: 57px;
+width: 128px;
+height: 128px;
+z-index: 8;
+}
+.Minutes {
+background-color: rgb(250, 86, 90);
+box-shadow: 0px 2px 0px 0px rgba(2, 3, 3, 0.1);
+position: absolute;
+left: 138px;
+top: 114px;
+width: 92px;
+height: 14px;
+z-index: 7;
+}
+.Minutes {
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 5px 0px 0px rgba(2, 3, 3, 0.1);
+position: absolute;
+left: 172px;
+top: 106px;
+width: 53px;
+height: 52px;
+z-index: 6;
+}
+.Hour {
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 5px 0px 0px rgba(2, 3, 3, 0.1);
+position: absolute;
+left: 172px;
+top: 89px;
+width: 43px;
+height: 48px;
+z-index: 5;
+}
+.Base {
+border-radius: 50%;
+background-color: rgb(115, 186, 93);
+box-shadow: inset 0px 7px 0px 0px rgba(2, 3, 3, 0.1);
+position: absolute;
+left: 129px;
+top: 67px;
+width: 113px;
+height: 112px;
+z-index: 4;
+}
+

@@ -1,0 +1,104 @@
+*{
+  -webkit-box-sizing: border-box;
+}
+body{
+  font-family:'Varela Round', sans-serif;
+}
+.cml-nav {
+  height: 100%;
+  width: 220px;
+  z-index: 100;
+  background: #384047;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+.cml-nav-closed{
+  width: 70px;
+  z-index: 100;
+}
+.hidden{
+  display: none;
+}
+.cml-settings-toggle{
+  position: absolute;
+  bottom: 120px;
+  cursor: pointer
+}
+.cml-menu-toggle{
+  position: absolute;
+  bottom: 180px;
+  cursor: pointer;
+}
+
+.cml-nav ul {
+  list-style: none;
+  padding: 15px 10px 10px 20px;
+  background: inherit;
+}
+.cml-nav ul li{
+  padding-bottom: 10px;
+}
+.cml-nav ul li i {
+  font-size: 32px;
+  color: #788188;
+  position: relative;
+  top: 6px;
+}
+.cml-nav ul li .icon-map{
+  left: -6px;
+}
+.cml-nav ul li a {
+  text-decoration: none;
+}
+.cml-nav ul li span {
+  color: #788188;
+  font-size: 18px;
+  line-height: 60px;
+  padding-left: 10px;
+}
+.cml-nav li:hover .icon-atom{
+  color: #2ecc71;
+}
+.cml-nav li:hover .icon-compass{
+  color: #008d8d;
+}
+.cml-nav li:hover .icon-layers{
+  color: #9b59b6;
+}
+.cml-nav li:hover .icon-clipboard4{color:#fff; }
+.cml-nav li:hover .icon-map{color: #fff;}
+.cml-nav li:hover .icon-calendar3{color: #fff;}
+
+.center-wrapper {
+  height: 100%;
+  margin-left: 70px;
+}
+.center-wrapper .container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.cml-open{
+  margin-left: 220px;
+}
+
+.page-menu {
+  width: 100%;
+  height: 70px;
+  background:#f5f5f5;
+  position: fixed;
+  top: 0;
+  padding-left: 25px;
+}
+.page-menu .title{
+  color: #5a6772;
+  font-size: 25px;
+}
+
+
+
+
+.main-content {
+  position: relative;
+  top: 80px;
+}
