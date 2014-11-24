@@ -22,49 +22,22 @@
     color: #fff; }
 
 /* line 4, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-body, html {
-  height: 100%; }
-
-/* line 6, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-.page-wrap {
-  height: 100%; }
-
-/* line 9, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-.container-fluid, .container {
-  height: 100%; }
-  /* line 11, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-  .container-fluid .row, .container .row {
-    height: 100%; }
-    /* line 13, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-    .container-fluid .row .col-md-3, .container-fluid .row .col-md-9, .container .row .col-md-3, .container .row .col-md-9 {
-      padding: 0; }
-    /* line 15, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-    .container-fluid .row .left-column, .container .row .left-column {
-      height: 100%;
-      background: #ecf0f1;
-      max-width: 350px; }
-    /* line 20, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-    .container-fluid .row .right-column .action-nav, .container .row .right-column .action-nav {
-      border-bottom: 1px solid #EFEFEF;
-      padding: 25px; }
-
-/* line 31, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0; }
-  /* line 35, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
+  /* line 8, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
   html body, body body {
     height: 100%;
     min-width: 550px; }
-    /* line 38, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
+    /* line 11, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
     html body header, body body header {
       width: 100%; }
-      /* line 40, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
+      /* line 13, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
       html body header .top-navbar, body body header .top-navbar {
         width: 100%;
         height: 75px;
-        background: #fdfdfd;
+        background: #31343A;
         border-bottom: 1px solid #EFEFEF;
         position: fixed;
         top: 0;
@@ -72,26 +45,25 @@ html, body {
         z-index: 100; }
         @media (max-width: 1025px) {
           html body header .top-navbar, body body header .top-navbar {
-            height: 50px;
-            background: #16a085; } }
-        /* line 52, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
+            height: 50px; } }
+        /* line 24, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
         html body header .top-navbar .search, body body header .top-navbar .search {
           float: left;
           height: 100%;
-          background: #16a085;
+          background: #292C32;
           width: 110px;
           text-align: center;
           cursor: pointer; }
           @media (max-width: 1025px) {
             html body header .top-navbar .search, body body header .top-navbar .search {
               display: none; } }
-          /* line 62, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
+          /* line 34, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
           html body header .top-navbar .search i, body body header .top-navbar .search i {
             color: #fff;
             font-size: 20px;
             margin-top: 25px;
             display: block; }
-        /* line 67, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
+        /* line 39, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
         html body header .top-navbar .site-title, body body header .top-navbar .site-title {
           text-align: center;
           margin: 0;
@@ -99,132 +71,16 @@ html, body {
           font-family: 'Muli', sans-serif;
           font-size: 28px;
           padding-top: 22px;
-          color: #4d4d4d; }
+          color: #fff; }
           @media (max-width: 1025px) {
             html body header .top-navbar .site-title, body body header .top-navbar .site-title {
               font-size: 18px;
               padding-top: 15px;
               color: #EFEFEF; } }
-        /* line 79, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
+        /* line 51, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
         html body header .top-navbar .action-right, body body header .top-navbar .action-right {
           position: absolute;
           right: 25px;
           top: 25px; }
-      /* line 83, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-      html body header .nav-tabs, body body header .nav-tabs {
-        width: 100%;
-        height: 70px;
-        margin-top: 75px;
-        background: rgba(0, 0, 0, 0.81);
-        position: relative; }
-        @media (max-width: 1025px) {
-          html body header .nav-tabs, body body header .nav-tabs {
-            display: none; } }
-        /* line 91, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-        html body header .nav-tabs ul, body body header .nav-tabs ul {
-          text-align: center;
-          list-style: none;
-          height: 100%;
-          max-width: 1400px; }
-          /* line 96, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-          html body header .nav-tabs ul .active, body body header .nav-tabs ul .active {
-            background: #000; }
-            /* line 98, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-            html body header .nav-tabs ul .active a, body body header .nav-tabs ul .active a {
-              color: #fff; }
-          /* line 100, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-          html body header .nav-tabs ul li, body body header .nav-tabs ul li {
-            display: inline-block;
-            height: 100%;
-            padding: 0 40px;
-            text-align: center; }
-            /* line 105, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-            html body header .nav-tabs ul li:hover, body body header .nav-tabs ul li:hover {
-              background: #000; }
-            /* line 108, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-            html body header .nav-tabs ul li a, body body header .nav-tabs ul li a {
-              color: #7f8c8d;
-              font-family: 'Oxygen', sans-serif;
-              text-transform: uppercase;
-              font-weight: bold;
-              display: block;
-              margin-top: 25px; }
-              /* line 115, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-              html body header .nav-tabs ul li a:hover, body body header .nav-tabs ul li a:hover {
-                text-decoration: none; }
-    /* line 117, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-    html body #container, body body #container {
-      height: 100%;
-      padding-left: 295px;
-      /* LC Width */
-      padding-top: 0; }
-      @media (max-width: 1025px) {
-        html body #container, body body #container {
-          padding-left: 0;
-          padding-top: 48px; } }
-      /* line 124, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-      html body #container .column, body body #container .column {
-        position: relative;
-        float: left; }
-      /* line 127, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-      html body #container #center, body body #container #center {
-        width: 100%;
-        height: 100%;
-        overflow: auto; }
-        /* line 131, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-        html body #container #center #content-container, body body #container #center #content-container {
-          width: 100%;
-          float: left; }
-          /* line 134, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-          html body #container #center #content-container .action-nav, body body #container #center #content-container .action-nav {
-            border-bottom: 1px solid #EFEFEF;
-            padding: 25px; }
-          /* line 137, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-          html body #container #center #content-container .content-inner, body body #container #center #content-container .content-inner {
-            padding: 25px; }
-      /* line 139, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-      html body #container #left, body body #container #left {
-        width: 295px;
-        right: 295px;
-        /* LC Width */
-        margin-left: -100%;
-        background: #f2f2f2;
-        height: 100%;
-        font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Sans-serif; }
-        @media (max-width: 1025px) {
-          html body #container #left, body body #container #left {
-            display: none; } }
-      /* line 148, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-      html body #container #footer, body body #container #footer {
-        clear: both; }
-
-@media (max-width: 1025px) {
-  /* line 151, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-  .mobile-nav-trigger {
-    display: inline-block;
-    float: left;
-    width: 50px;
-    height: 100%;
-    text-align: center;
-    font-size: 20px;
-    position: absolute;
-    cursor: pointer; }
-    /* line 160, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-    .mobile-nav-trigger:after {
-      background: #16a085; }
-    /* line 162, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-    .mobile-nav-trigger i {
-      color: #EFEFEF;
-      font-size: 20px;
-      text-align: center;
-      display: block;
-      padding-top: 15px; }
- }
-
-@media (min-width: 1026px) {
-  /* line 169, /Users/sawyerbateman/Development/newtcs/templates/centerstudios/chrome/option2/styles/base.sass */
-  .mobile-nav-trigger {
-    display: none; }
- }
 
 /*# sourceMappingURL=base.css.map */
