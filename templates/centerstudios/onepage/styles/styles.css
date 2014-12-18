@@ -1052,3 +1052,20 @@ figure,form {
 .img-feature2 {
   background:url(img/features/celebrate.jpg);
 }
+
+.check-browser {
+  background: #333;
+  padding: 25px;
+  text-align: center;
+}
+.check-browser h3{
+  margin-top: 0;
+  color: #ccc;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.upgrade-ie{
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
