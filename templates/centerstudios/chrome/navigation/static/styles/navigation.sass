@@ -17,7 +17,7 @@ html, body, .st-container, .st-pusher
   position: relative
 .st-content-inner
   position: relative
-
+  font-family: $varela
 .st-container
   position: relative
   overflow: hidden
@@ -55,9 +55,10 @@ html, body, .st-container, .st-pusher
   left: 80px
   z-index: 100
   visibility: hidden
-  width: 315px
+  width: 345px
   height: 100%
-  background: #3C3E45
+  background: #3A3C43
+  font-family: $varela
   -webkit-transition: all 0.5s
   transition: all 0.5s
   &::after
@@ -111,16 +112,16 @@ html, body, .st-container, .st-pusher
     margin-right: 0
     margin-left: 0
   .row-top
-    border-top: 1px solid #383838
-    border-bottom: 1px solid #383838
+    border-top: 1px solid #333
+    border-bottom: 1px solid #333
   .row-bottom
-    border-bottom: 1px solid #383838
+    border-bottom: 1px solid #333
   ul li
     display: block
     text-align: center
     height: 80px
-    border-right: 1px solid #383838
-    border-left: 1px solid #383838
+    border-right: 1px solid #333
+    border-left: 1px solid #333
     &:first-child
       border-left: none
       border-right: none
@@ -131,7 +132,8 @@ html, body, .st-container, .st-pusher
       border-top: 0
     a
       outline: none
-      color: #72AAC2
+      color: #93F0FF
+      line-height: 19px
       text-transform: uppercase
       text-shadow: 0 0 1px rgba(255, 255, 255, 0.1)
       letter-spacing: 1px
@@ -142,7 +144,7 @@ html, body, .st-container, .st-pusher
       top: 20px
       display: block
       text-align: center
-      font-family: 'Lato', Calibri, Arial, sans-serif
+      font-family: $varela
     &:hover
       text-decoration: none
       color: #689bc0
@@ -160,6 +162,40 @@ html, body, .st-container, .st-pusher
     &:hover
       background: rgba(0, 0, 0, 0.2)
       box-shadow: inset 0 -1px rgba(0, 0, 0, 0)
+  .page-options
+    li
+      a
+        i
+          font-size: 20px
+        span
+          font-size: 10px
+  .section-list
+    .col-md-12
+      padding: 0
+      .title
+        margin-top: 25px
+        font-size: 15px
+        color: #f3f3f3
+        padding: 0 15px 15px
+        border-bottom: 1px solid #333
+      ul
+        padding: 0
+        margin: 0
+        list-style: none
+        li
+          width: 100%
+          height: 50px
+          border-bottom: 1px solid #333
+          text-align: left
+          padding: 0 15px
+          a
+            text-align: left
+            color: #f3f3f3
+            i
+              float: left
+              margin-right: 12px
+              font-size: 18px
+              color: #f3f3f3
 
 /* Individual effects
 
@@ -167,8 +203,8 @@ html, body, .st-container, .st-pusher
 
 .st-effect-2
   &.st-menu-open .st-pusher
-    -webkit-transform: translate3d(395px, 0, 0)
-    transform: translate3d(395px, 0, 0)
+    -webkit-transform: translate3d(425px, 0, 0)
+    transform: translate3d(425px, 0, 0)
   &.st-menu
     z-index: 1
   &.st-menu-open .st-effect-2.st-menu
@@ -272,7 +308,7 @@ nav input[type=search]
     color: #EDEDEE
 
 .nav-top, h1, h2, h3, h4, h5, h6, p, span, input
-  font-family: 'Lato', Calibri, Arial, sans-serif
+  font-family: $varela
 
 .sidebar
   .user-avatar
