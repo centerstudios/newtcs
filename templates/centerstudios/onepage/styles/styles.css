@@ -237,7 +237,7 @@ a:hover,a:focus {
 
 p {
   color:#8c9398;
-  word-spacing:1px;
+  word-spacing:2.5px;
   line-height:25px;
   font-size:14px;
 }
@@ -334,7 +334,7 @@ nav ul li:last-child {
   border:none;
 }
 .blog-shown li:first-child{
-  border-top: 1px solid #3F3F41;
+  border-top: 1px solid #646253;
 }
 .blog-shown li{
   box-shadow: inset 0 8px 8px -8px #333;
@@ -443,7 +443,8 @@ nav ul li a:hover,nav ul li a:focus {
 
 .hero p {
   letter-spacing:1px;
-  color: #D2ECFF;
+  color: #4a4a4a;
+  font-size: 15px;
 }
 
 .learn-more-btn {
@@ -807,6 +808,8 @@ line-height:30px;
 
 .team img {
   margin-bottom:40px;
+  border-radius: 5px;
+  border: 1px solid #E8E8E8;
 }
 .btn-trigger{
   border: 2px solid #7fffff;
@@ -1048,4 +1051,21 @@ figure,form {
 
 .img-feature2 {
   background:url(img/features/celebrate.jpg);
+}
+
+.check-browser {
+  background: #333;
+  padding: 25px;
+  text-align: center;
+}
+.check-browser h3{
+  margin-top: 0;
+  color: #ccc;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.upgrade-ie{
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 10px;
 }

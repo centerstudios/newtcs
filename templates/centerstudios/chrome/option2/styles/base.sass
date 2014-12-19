@@ -1,0 +1,54 @@
+@import '../../sass-includes/variables'
+@import 'imports/ui-elements'
+
+html,body
+  height: 100%
+  padding: 0
+  margin: 0
+  body
+    height: 100%
+    min-width: 550px
+    header
+      width: 100%
+      .top-navbar
+        width: 100%
+        height: 75px
+        background: $flamingo
+        border-bottom: 1px solid $nav-border
+        position: fixed
+        top: 0
+        left: 0
+        z-index: 100
+        @media(max-width: 1025px)
+          height: 50px
+        .search
+          float: left
+          height: 100%
+          background: #292C32
+          width: 110px
+          text-align: center
+          cursor: pointer
+          @media(max-width: 1025px)
+            display: none
+
+          i
+            color: $white
+            font-size: 20px
+            margin-top: 25px
+            display: block
+        .site-title
+          text-align: center
+          margin: 0
+          padding: 0
+          font-family: $font_Muli
+          font-size: 28px
+          padding-top: 22px
+          color: #fff
+          @media(max-width: 1025px)
+            font-size: 18px
+            padding-top: 15px
+            color: $light
+        .action-right
+          position: absolute
+          right: 25px
+          top: 25px

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Muli:300,400|Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../../common/icomoon/style.css" />
+		<!-- Navigation -->
+		<link rel="stylesheet" type="text/css" href="../../common/styles/component.css"/>
+		<link rel="stylesheet" type="text/css" href="../../common/styles/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="../../common/styles/normalize.css"/>
+		<!-- End Navigation -->
+		<link rel="stylesheet" type="text/css" href="styles/tabs.css" />
+		<link rel="stylesheet" type="text/css" href="styles/base.css" />
+		<link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="styles/demo.css" />
+		<link rel="stylesheet" type="text/css" href="styles/tabstyles.css" />
+		<script src="../../common/js/modernizr.custom.js"></script>
+	</head>
+	<body class="">
+
+
+
+
+			<!-- content push wrapper -->
+			<div class="st-pusher">
+				<nav class="st-menu st-effect-14" id="menu-14">
+					<h2 class="icon icon-stack">Sidebar</h2>
+					<ul>
+						<li><a class="icon icon-data" href="#">Data Management</a></li>
+						<li><a class="icon icon-location" href="#">Location</a></li>
+						<li><a class="icon icon-study" href="#">Study</a></li>
+						<li><a class="icon icon-photo" href="#">Collections</a></li>
+						<li><a class="icon icon-wallet" href="#">Credits</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="st-content"><!-- this is the wrapper for the content -->
+					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+						<header>
+							<div class="top-navbar">
+									<div data-effect="st-effect-14" class="search">
+											<i class="icon-search"></i>
+									</div>
+									<h1 class="site-title">The Center Studios</h1>
+									<div class="action-right">
+
+									</div>
+							</div>
+						</header>
+						<section>
+							<div class="tabs tabs-style-linemove">
+								<nav>
+									<ul>
+										<li><a href="#section-linemove-1" class="icomoon icon-compass"><span>Dashboard</span></a></li>
+										<li><a href="#section-linemove-2" class="icomoon icon-layers"><span>Dreamboards</span></a></li>
+										<li><a href="#section-linemove-3" class="icon icon-display"><span>Action Plan</span></a></li>
+										<li><a href="#section-linemove-5" class="icomoon icon-calendar"><span>Calendar</span></a></li>
+										<li><a href="#section-linemove-4" class="icomoon icon-streetsign"><span>Timeline</span></a></li>
+									</ul>
+								</nav>
+								<div class="content-wrap">
+									<button data-effect="st-effect-14">Delayed 3D Rotate</button>
+									<section id="section-linemove-1"><p><i class="icomoon icon-compass"></i>Dashboard</p></section>
+									<section id="section-linemove-2"><p><i class="icomoon icon-layers"></i>Dreamboards</p></section>
+									<section id="section-linemove-3"><p><i class="icon icon-display"></i>Action Plans</p></section>
+									<section id="section-linemove-4"><p><i class="icomoon icon-calendar"></i>Calendar</p></section>
+									<section id="section-linemove-5"><p><i class="icomoon icon-streetsign"></i>Timeline</p></section>
+								</div><!-- /content -->
+							</div><!-- /tabs -->
+						</section>
+					</div>
+			</div>
+	</div>
+	<script src="js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
+
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
+
+			})();
+
+		</script>
+		<script src="/templates/centerstudios/common/js/classie.js"></script>
+		<script src="/templates/centerstudios/common/js/sidebarEffects.js"></script>
+	</body>
+</html>
