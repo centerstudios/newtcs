@@ -21,6 +21,7 @@ body,
 .st-content,
 .st-content-inner {
   position: relative;
+  left: 80px;
 }
 
 .st-container {
